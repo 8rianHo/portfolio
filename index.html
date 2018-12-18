@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my personal online portfolio with some of the projects I have completed since switching careers from the biomedical sciences to software development.">
+    <meta name="keywords" content="software developer, software development, engineer, portfolio, front-end, javascript, java, back-end, brian">
+    <title>Brian Ho - Software Developer</title>
+    <link rel="icon" href="/img/common/coffee-cup.png">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/layouts/blog.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<div id="layout" class="pure-g">
+    <div id="sidebar" class="sidebar pure-u-1 pure-u-md-1-4">
+        <div id="header" class="header">
+            <img src="img/common/brian.jpg" alt="my headshot lol" class="header-img">
+            <h1 class="brand-title" >Brian Ho</h1>
+            <h2 class="brand-tagline">Software Developer | 25 | London</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item nav-item-active">
+                        <a id="aboutBtn" class="pure-button aboutBtn">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contentBtn" class="pure-button contentBtn">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contactBtn" class="pure-button contactBtn">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+
+        <div id="about">
+            <div class="posts">
+
+                <section class="about">
+                    <header class="post-header">
+                    <h2 class="post-title">Hey! I'm Brian :]</h2>
+
+                    </header>
+                    <div class="post-description">
+                        <p>
+                            Since switching from my Biomedical Sciences degree to Software Development a year ago, I have been confidently building my skills and experience within the industry. I have commercial experience in web scraping, product marketing/affiliate feeds, and single-page applications. 
+                        </p>
+                        <p>    
+                            Although I'm relatively new, I believe my interests lie around full-stack web development. However, I've been exposing myself to all development opportunities available to me with the hopes of learning as much as I can and truly honing in on an area of specialty.
+                        </p>
+                        <p>
+                            I'm quiet, a keen problem solver and highly ambitious. I will do whatever I can to succeed as a developer, and I am hugely excited to see where this journey will take me.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="rightMobileButton">
+                    <a id="mobileButton" class="pure-button contentBtn">Projects</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="content">
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Most Recent</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                        <header class="post-header">
+    
+                            <h2 class="post-title">Portfolio</h2>
+    
+                            <p class="post-meta">
+                                <a class="post-category post-category-javascript">JavaScript</a>
+                            </p>
+                        </header>
+    
+                        <div class="post-description">
+                            <p>
+                                    As there are so many frameworks to choose from, I wanted to take a step back and create something minimal to showcase my work. I used css libraries to speed up the design,  but the foundation of this web application is vanilla JavaScript. Good excuse to learn how to deploy to github pages too.
+                            </p>
+                        </div>
+                        <h1 class="content-subhead"></h1>
+                    </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title">InstaScrape - <i><small> in progress</small></i></h2>
+
+                        <p class="post-meta">
+                            <a class="post-category post-category-java">Java</a> <a class="post-category post-category-other1">Selenium</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                                With the ban of applications seeking permission to give instagram users a comprehensive view of who does / doesn’t follow back, I wanted to give this a try with my experience of scraping data.
+
+                                The plan is to initially return a list of users on the command line, then expand this with a user interface.
+                                
+                                I chose java and selenium simply because I hadn’t coded in Java for a year, so needed a reason to relearn the syntax.
+                        </p>
+                    </div>
+                    <h1 class="content-subhead"></h1>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <a class="post-avatar modalClass" data-image="4a"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                        <a class="post-avatar modalClass" data-image="4b"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+
+                        <h2 class="post-title">Pokèmon Rock, Paper, Scissors</h2>
+
+                        <p class="post-meta">
+                            <a class="post-category post-category-swift">Swift 3</a> <a class="post-category post-category-other2">Firebase</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                                A challenge I set myself: To upload a game to the App Store. I decided on Rock PaperScissors based on the classic pokemon battle theme. This was coded completely in Swift 3 using Xcode. I learnt about the pros and cons of uploading to the App Store (*cough trademark strikes cough*). I think it peaked at ten downloads by friends and family so it was a win-win all around.
+                        </p>
+                    </div>
+                    <h1 class="content-subhead"></h1>
+                </section>
+
+                <section class="post">
+                        <header class="post-header">
+                            <a class="post-avatar modalClass" data-image="1"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                            <h2 class="post-title">Photo Face Detector</h2>
+    
+                            <p class="post-meta">
+                                <a class="post-category post-category-react">React</a> <a class="post-category post-category-javascript">JavaScript</a> <a class="post-category post-category-other1">Node</a>
+                            </p>
+                        </header>
+    
+                        <div class="post-description">
+                            <p>
+                                    An upgrade to robot friends. A login system and SPA to upload photos and recognise faces within them using a smart public API called Clarafai. The login and number of photos uploaded to the page is recorded and stored in a PostgreSQL database. Provided brief introduction to deploying on Heroku too.
+                            </p>
+                        </div>
+                        <h1 class="content-subhead"></h1>
+                    </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title">Robot Friends</h2>
+
+                        <p class="post-meta">
+                            <a class="post-category post-category-react">React</a> <a class="post-category post-category-javascript">JavaScript</a> <a class="post-category post-category-other1">Node</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                                This single page application was my first exposure to the react framework and node. The idea behind this was to connect to a public API and display the information on screen using react states.
+                        </p>
+                    </div>
+                    <h1 class="content-subhead"></h1>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <a class="post-avatar modalClass" data-image="3a"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                        <a class="post-avatar modalClass" data-image="3b"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+
+                        <h2 class="post-title">UCL Industry Exchange Network</h2>
+
+                        <p class="post-meta">
+                            <a class="post-category post-category-javascript">JavaScript</a> <a class="post-category post-category-php">PHP</a> <a class="post-category post-category-other2">MySQL</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                                A university course module organiser, with the purpose of matching real world clients with uni students to create a mobile application. Client allocation and monitoring of the course over twelve weeks was originally managed off of spreadsheets / google docs.
+
+                                I created a web application for all users of the module as a new central hub for information. The module organiser can allocate students to clients. Teaching assistants can record group progress and students can see their marks.
+                                
+                                Front end is predominantly JavaScript / jQuery / AJAX. The visuals provided by bootstrap. Backend is PHP connected to a MySQL database.
+                        </p>
+                    </div>
+                    <h1 class="content-subhead"></h1>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <a class="post-avatar modalClass" data-image="2"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+                        <h2 class="post-title">iPhone Calculator</h2>
+
+                        <p class="post-meta">
+                            <a class="post-category post-category-swift">Swift 3</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                                Taught myself the basics of Swift and decided to clone the iPhone calculator as a challenge. The logic of a basic calculator was coded in Swift but most of the time was spent on Xcode UI views trying to replicate the default calculator as closely as possible.
+                        </p>
+                    </div>
+                    <h1 class="content-subhead"></h1>
+                </section>
+
+                <div class="mobileButtons">
+                    <div class="leftMobileButton">
+                        <a id="mobileButton" class="pure-button aboutBtn">About</a>
+                    </div>
+                    <div class="rightMobileButton">
+                        <a id="mobileButton" class="pure-button contactBtn">Contact</a>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- END OF PAGE -->
+
+        <div id="contact">
+            <div class="posts">
+
+                <section class="about">
+                    <header class="post-header">
+                    <h2 class="post-title">Lets Chat!</h2>
+
+                    </header>
+                    <div class="post-description">
+                        <p>
+                            I’m always up for a coffee to discuss ideas, projects, the meaning of life, or <i>Louis Theroux</i> documentaries.
+                        </p>
+                        <p>
+                            With so much “fake news” I’m not really active on social media anymore. You will still reach me  with a message on LinkedIn or email at <b>brian8ho[at]outlook[dot]com</b>.
+                        </p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/8rianHo" target="_blank" class="social-link"><i class="fa fa-github" style="font-size:72px; color: rgb(61, 79, 93);"></i></a>
+                        <a href="https://www.linkedin.com/in/brian8ho/" target="_blank" class="social-link"><i class="fa fa-linkedin-square" style="font-size:72px;color: rgb(61, 79, 93);"></i></a>
+                        <a href="https://www.instagram.com/brianho1/" target="_blank" class="social-link"><i class="fa fa-instagram" style="font-size:72px; color: rgb(61, 79, 93);"></i></a>
+                    </div>
+                </section>
+
+                <div class="leftMobileButton">
+                    <a id="mobileButton" class="pure-button contentBtn">Projects</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div>
+                        <img class="modal-image" data-image="1" src="img/common/face-detector.png" alt="faceDetector">
+                        <img class="modal-image" data-image="2" src="img/common/iphone1.png" alt="iphoneCalculator">
+                        <img class="modal-image" data-image="3a" src="img/common/ixn1.png" alt="ixn1">
+                        <img class="modal-image" data-image="3b" src="img/common/ixn2.png" alt="ixn2">
+                        <img class="modal-image" data-image="4a" src="img/common/rps1.png" alt="rps1">
+                        <img class="modal-image" data-image="4b" src="img/common/rps2.png" alt="rps2">
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/animations.js"></script>
+</body>
+</html>
