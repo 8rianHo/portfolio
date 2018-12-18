@@ -201,22 +201,3 @@ function displayCorrectPhoto(modalBtnNumber, modalImageList, modalView) {
 
     modalView.style.display = "block";
 }
-
-function startUpAnimation() {
-    window.onload = function() {
-        let header = document.getElementsByClassName("brand-title")[0];
-        header.className += " animated fadeInLeft fast";
-
-        aboutContent.className += "animated fadeInUp fast";
-    }
-}
-
-function onPageLoad() {
-    startUpAnimation();
-}
-
-// PAGE LOADER
-function init() {
-    onPageLoad();
-}
-init();
